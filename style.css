@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lasagna {
+    width: 400px;
+    height: 400px;
+}
+
+.red {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.lamb {
+    width: 400px;
+    height: 400px;
+}
+
+.beef {
+    width: 400px; 
+    height: 400px;
+}
+
+.recipe-images {
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.recipe-book {
+    width: 425px;
+    height: 500px;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

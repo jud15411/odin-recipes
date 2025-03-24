@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <!--Use this style section to style certain elements. If it gets too longs, make a stylesheet.-->
-    <style>
-        
-        .recipe-book {
-            width: 425px;
-            height: 500px;
-        }
-    </style>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <!--Here is the main recipe book image on the homepage-->
-    <img src="recipes/images/recipe-book.jpg" class="recipe-book">
-    <ul>
-        <li><a href="recipes/beef-bulgogi.html">Korean Beef Bulgogi</a></li>
-        <br>
-        <li><a href="recipes/lamb-souvlaki.html">Lamb Souvlaki</a></li>
-        <br>
-        <li><a href="recipes/lasagna.html">Lasagna</a></li>
-        <br>
-        <!--Add more recipes here (don't forget to add a link to the correct page)-->
-    </ul>
+    <div class="recipe-container">
+        <h1>Odin Recipes</h1>
+        <!--Here is the main recipe book image on the homepage-->
+        <img src="recipes/images/recipe-book.jpg" class="recipe-book">
+        <div class="recipes-container">
+            <ul class="recipes-container">
+                <div id="recipe-1">
+                    <a href="recipes/beef-bulgogi.html"><img src="recipes/images/beef.jpg" class="recipe-images"></a>
+                    <li><a href="recipes/beef-bulgogi.html">Korean Beef Bulgogi</a></li>
+                </div>
+                <br>
+                <div id="recipe-2">
+                    <a href="recipes/lamb-souvlaki.html"><img src="recipes/images/Lamb.jpg" class="recipe-images"></a>
+                    <li><a href="recipes/lamb-souvlaki.html">Lamb Souvlaki</a></li>
+                </div>
+                <br>
+                <div id="recipe-3">
+                    <a href="recipes/lasagna.html"><img src="recipes/images/Lasagna.jpg" class="recipe-images"></a>
+                    <li><a href="recipes/lasagna.html">Lasagna</a></li>
+                </div>
+                <br>
+                <!--Add more recipes here (don't forget to add a link to the correct page)-->
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
